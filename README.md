@@ -1,16 +1,13 @@
 # 🎵 Spotify Clone
 
-A **Spotify-inspired music player web app** built using **React JS** and **Tailwind CSS**. The app includes a fully functional UI with sidebar navigation, music album pages, and a responsive audio player. Users can select, play, and seek songs just like in a real streaming platform.
+A **Spotify-inspired music player web app** built using **React JS** and **Tailwind CSS**. The app includes a fully functional UI with sidebar navigation, music album pages, and a responsive audio player.
 
 ---
 
 ## 🚀 Features
-
-- 🎧 Play audio songs online  
 - 📁 Music albums & song lists  
-- 📂 Album details & dedicated pages  
 - 🧭 Sidebar navigation menu  
-- ▶️ Full-featured audio player  
+- ▶️ audio player  
   - Play / Pause
   - Current Time & Duration Display
   - Seekbar functionality  
@@ -46,8 +43,6 @@ npm install
 ```
 npm run dev
 ```
-
----
 
 
 
