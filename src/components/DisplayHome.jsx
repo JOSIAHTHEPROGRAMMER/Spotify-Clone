@@ -1,16 +1,17 @@
 import React from 'react'
 import Navbar from './Navbar'
 import { albumsData, songsData } from '../assets/assets'  
-import  AlbumItem  from './AlbumItem'
+import AlbumItem from './AlbumItem'
 import SongItem from './SongItem'
 
 const DisplayHome = () => {
   return (
     <>
       <Navbar />
+      
+      {/* Featured album section */}
       <div className='px-4 mb-4'>
         <h1 className='my-5 font-bold text-2xl'>Featured Charts</h1>
-        
         <div className='flex overflow-x-auto gap-4 whitespace-nowrap'>
           {albumsData.map((item, index) => (
             <AlbumItem
@@ -24,9 +25,9 @@ const DisplayHome = () => {
         </div>
       </div>
 
+      {/* Featured songs section */}
       <div className='px-4 mb-4'>
-        <h1 className='my-5 font-bold text-2xl'>Today's Biggest hits</h1>
-        
+        <h1 className='my-5 font-bold text-2xl'>Today's Biggest Hits</h1>
         <div className='flex overflow-x-auto gap-4 whitespace-nowrap'>
           {songsData.map((item, index) => (
             <SongItem
@@ -44,4 +45,3 @@ const DisplayHome = () => {
 }
 
 export default DisplayHome
-
