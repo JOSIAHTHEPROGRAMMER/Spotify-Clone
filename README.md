@@ -1,25 +1,25 @@
-# 🎵 Spotify Clone
+# Spotify Clone
 
 A **Spotify-inspired music player web app** built using **React JS** and **Tailwind CSS**. The app includes a fully functional UI with sidebar navigation, music album pages, and a responsive audio player.
 
 ---
 
-## 🚀 Features
-- 📁 Music albums & song lists  
-- 🧭 Sidebar navigation menu  
-- ▶️ audio player  
+##  Features
+-  Music albums & song lists  
+-  Sidebar navigation menu  
+-   audio player  
   - Play / Pause
   - Current Time & Duration Display
   - Seekbar functionality  
-- 🎨 Beautiful UI with Tailwind CSS  
-- 🧩 Icons via `lucide-react` and downloadable assets
+-  Beautiful UI with Tailwind CSS  
+-  Icons via `lucide-react` and downloadable assets
 
 
 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **React JS** – Frontend framework
 - **Tailwind CSS** – Utility-first CSS for styling
@@ -36,14 +36,23 @@ cd Spotify-Clone
 ## Install dependencies:
 
 ```bash
+cd frontend
+npm install
+
+cd backend
 npm install
 ```
 
-## Start the development server:
+## Start the frontend server:
 ```
 npm run dev
 ```
 
+## Start the backend server:
+```
+npm run server
+```
 
+> Work in progress
 
 
