@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/JOSIAHTHEPROGRAMMER/Spotify-Clone#readme",
+  "bugs": {
+    "url": "https://github.com/JOSIAHTHEPROGRAMMER/Spotify-Clone/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JOSIAHTHEPROGRAMMER/Spotify-Clone.git"
+  },
+  "license": "ISC",
+  "author": "JOSIAHTHEPROGRAMMER",
+  "type": "module",
+  "main": "server.js",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "dependencies": {
+    "cloudinary": "^2.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.17.1",
+    "multer": "^2.0.2",
+    "nodemon": "^3.1.10"
+  }
+}

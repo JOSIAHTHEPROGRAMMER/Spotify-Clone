@@ -25,6 +25,8 @@ backend/dist/
 frontend/.env
 backend/.env
 
+
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -35,3 +37,4 @@ backend/.env
 *.njsproj
 *.sln
 *.sw?
+frontend/src/assets/
