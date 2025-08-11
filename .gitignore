@@ -38,3 +38,8 @@ backend/.env
 *.sln
 *.sw?
 frontend/src/assets/
+
+# Local Netlify folder
+.netlify
+
+spotify_admin/
