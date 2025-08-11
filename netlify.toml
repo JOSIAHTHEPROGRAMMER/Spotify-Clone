@@ -1,0 +1,7 @@
+[build]
+  base = "frontend"      # Go into the frontend folder
+  publish = "dist"       # Publish from frontend/dist
+  command = "npm run build"  # Build command
+
+[build.environment]
+  NODE_VERSION = "20"    # Use Node.js 20
