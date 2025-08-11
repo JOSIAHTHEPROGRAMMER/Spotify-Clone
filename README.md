@@ -1,6 +1,6 @@
-# Spotify Clone
+# [Spotify Clone](https://6899ec8b764613d4192e9438--spotify-clone420.netlify.app/)
 
-A **Spotify-inspired music player web app** built using **React JS** and **Tailwind CSS**. The app includes a fully functional UI with sidebar navigation, music album pages, and a responsive audio player.
+A **Spotify-inspired music player web app** built using **React JS** and **Tailwind CSS**. The app includes a semi functional UI with sidebar navigation, music album pages, and a responsive audio player.
 
 ---
 
